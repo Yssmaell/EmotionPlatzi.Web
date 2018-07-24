@@ -200,6 +200,7 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <None Include="Properties\PublishProfiles\TestEmotionYsma - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -270,6 +271,7 @@
     <Compile Include="Models\EmoPicture.cs" />
     <Compile Include="Models\EmoPicturesAPIController.cs" />
     <Compile Include="Models\EmotionPlatziWebContext.cs" />
+    <Compile Include="Models\EmoUploaderAPIController.cs" />
     <Compile Include="Models\Home.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\EmotionHelper.cs" />

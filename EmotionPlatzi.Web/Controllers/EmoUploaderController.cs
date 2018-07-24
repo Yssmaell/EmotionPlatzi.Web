@@ -54,7 +54,7 @@ namespace EmotionPlatzi.Web.Controllers
                     db.EmoPictures.Add(vPicture);
                     await db.SaveChangesAsync();
 
-                    return RedirectToAction("Details", "EmoPictures", new { Id = vPicture.Id });
+                    return RedirectToAction("Details", "EmoPictures", new { id = vPicture.Id });
                 }                
             }
             catch (Exception exc)
