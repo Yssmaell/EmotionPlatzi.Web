@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_MyLayout</title>
+    @* *** Eso para usar estos scrip pero si quiero usar otros scrips en el Render suo ---> 
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>*@
+
+    @* Esto : *@
+    @RenderSection("scripts", required:false)
+
+</head>
+<body>
+    <h1>Este es un nuevo Layout para que usar como LayoutBase</h1>
+    <div> 
+        @RenderBody()
+    </div>
+</body>
+</html>
